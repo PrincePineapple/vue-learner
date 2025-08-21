@@ -3,20 +3,16 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import jsonview from './components/JSON.vue'
 import MyName from './components/MyName.vue';
+// import JSON from './components/JSON.vue'; 
+// import JSONSoluton from './components/JSONSolution.vue'; 
+import Form from './components/Form.vue'; 
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
     <!-- <jsonview /> -->
-     <MyName />
+     <!-- <MyName /> -->
+      <Form />
   </main>
 </template>
 

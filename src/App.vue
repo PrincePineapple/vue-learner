@@ -1,23 +1,22 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import jsonview from './components/JSON.vue'
-import MyName from './components/MyName.vue';
-// import JSON from './components/JSON.vue'; 
-// import JSONSoluton from './components/JSONSolution.vue'; 
-import Form from './components/Form.vue'; 
+import JSONLab from './components/JSONLab.vue'
+import BHeader from './components/BHeader.vue'
+import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
 </script>
 
 <template>
+  <header>
+    <BHeader />
+  </header>
+
   <main>
-    <!-- <jsonview /> -->
-     <!-- <MyName /> -->
-      <Form />
+    <LibraryRegistrationForm />
+    <!-- <JSONLab /> -->
   </main>
 </template>
 
 <style scoped>
-header {
+/* header {
   line-height: 1.5;
 }
 
@@ -42,5 +41,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>
